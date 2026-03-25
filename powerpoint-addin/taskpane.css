@@ -1,0 +1,124 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ms-welcome__header {
+  background-color: #c43e1c;
+  padding: 16px 20px;
+}
+
+.ms-welcome__header h1 {
+  color: white;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ms-welcome__main {
+  padding: 20px;
+}
+
+.description {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.action-section {
+  margin-bottom: 20px;
+}
+
+.ms-Button--primary {
+  background-color: #c43e1c;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.ms-Button--primary:hover {
+  background-color: #a33518;
+}
+
+.ms-Button--primary:active {
+  background-color: #8c2d14;
+}
+
+.ms-Button--primary:disabled {
+  background-color: #c8c8c8;
+  cursor: not-allowed;
+}
+
+.status {
+  padding: 10px 14px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.status.hidden {
+  display: none;
+}
+
+.status.success {
+  background-color: #dff6dd;
+  color: #107c10;
+  border-left: 4px solid #107c10;
+}
+
+.status.error {
+  background-color: #fde7e9;
+  color: #a4262c;
+  border-left: 4px solid #a4262c;
+}
+
+.status.info {
+  background-color: #eff6fc;
+  color: #0078d4;
+  border-left: 4px solid #0078d4;
+}
+
+.info-section {
+  border-top: 1px solid #edebe9;
+  padding-top: 16px;
+}
+
+.info-section h3 {
+  margin: 0 0 10px 0;
+  color: #323130;
+  font-size: 14px;
+}
+
+.steps {
+  color: #605e5c;
+  line-height: 1.8;
+  padding-left: 20px;
+}
+
+.steps li {
+  margin-bottom: 4px;
+}
+
+kbd {
+  background-color: #f3f2f1;
+  border: 1px solid #c8c6c4;
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-size: 12px;
+  font-family: monospace;
+}

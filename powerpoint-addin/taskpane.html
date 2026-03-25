@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formato Angoli</title>
+  <link rel="stylesheet" href="https://res.cdn.office.net/files/fabric-cdn-prod_20230815.002/office-ui-fabric-core/11.1.0/css/fabric.min.css" />
+  <link rel="stylesheet" href="taskpane.css" />
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+</head>
+<body class="ms-font-m ms-welcome ms-Fabric">
+  <header class="ms-welcome__header">
+    <h1 class="ms-font-xl">Formato Angoli</h1>
+  </header>
+
+  <section class="ms-welcome__main">
+    <p class="ms-font-s description">
+      Seleziona due o più forme in PowerPoint.<br />
+      Gli angoli arrotondati di tutte le forme verranno uniformati a quelli della <strong>prima forma selezionata</strong>.
+    </p>
+
+    <div class="action-section">
+      <button id="apply-btn" class="ms-Button ms-Button--primary">
+        <span class="ms-Button-label">Uniforma Angoli</span>
+      </button>
+    </div>
+
+    <div id="status" class="status hidden"></div>
+
+    <div class="info-section">
+      <h3 class="ms-font-m-plus">Come usarlo:</h3>
+      <ol class="ms-font-s steps">
+        <li>Seleziona la forma con gli angoli desiderati <em>(prima forma)</em></li>
+        <li>Tieni premuto <kbd>Ctrl</kbd> e seleziona le altre forme</li>
+        <li>Clicca <strong>Uniforma Angoli</strong></li>
+      </ol>
+    </div>
+  </section>
+
+  <script src="taskpane.js"></script>
+</body>
+</html>
