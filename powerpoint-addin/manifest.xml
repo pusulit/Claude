@@ -13,6 +13,10 @@
   <DisplayName DefaultValue="Formato Angoli" />
   <Description DefaultValue="Uniforma gli angoli arrotondati di tutte le forme selezionate al primo box selezionato" />
 
+  <IconUrl DefaultValue="https://pusulit.github.io/Claude/powerpoint-addin/assets/icon-32.png" />
+  <HighResolutionIconUrl DefaultValue="https://pusulit.github.io/Claude/powerpoint-addin/assets/icon-80.png" />
+  <SupportUrl DefaultValue="https://github.com/pusulit/Claude" />
+
   <Hosts>
     <Host Name="Presentation" />
   </Hosts>
